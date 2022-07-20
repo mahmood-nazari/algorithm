@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class BfsSearchListAdjacency {
     private final LinkedList<Integer>[] adj;
     Scanner scanner = new Scanner(System.in);
+    //number of edge in this case 4
     private final int numberOfNode = scanner.nextInt();
 
     BfsSearchListAdjacency() {
